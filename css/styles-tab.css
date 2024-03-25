@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) {
+
+    .header-icon-say,
+    .header-icon-search,
+    .logo-header{
+        display:block;
+    }
+    .logo-header-sm{
+        display:none;
+    }
+    .search-button,
+    .say-button{
+    fill:var(--header-background-text-color);
+    }
+    
+}
