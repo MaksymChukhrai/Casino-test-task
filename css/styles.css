@@ -430,7 +430,7 @@ overflow: hidden;
 /* winner cards results */
 .winner-cards{
     margin-top: 25px;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
     gap: 20px;
     display: flex;
     flex-direction: column;
@@ -474,6 +474,9 @@ overflow: hidden;
 
 
 /* Footer */
+footer{
+    margin-top: 48px;
+}
 .footer-container{
     height: 48px;
     width: 100%;
