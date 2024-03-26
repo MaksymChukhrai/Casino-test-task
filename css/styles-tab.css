@@ -12,5 +12,10 @@
     .say-button{
     fill:var(--header-background-text-color);
     }
+
+    .top-cards-item:nth-child(5),
+    .top-cards-item:nth-child(6) {
+      display: block; /* Показываем элементы 5 и 6 для планшетов и ПК */
+    }
     
 }
