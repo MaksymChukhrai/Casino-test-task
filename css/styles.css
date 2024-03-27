@@ -674,3 +674,21 @@ padding-top: 0.5rem;
 .menu-items li a:hover{
     color: var(--primary-color);
 }
+/* buttons providers */
+
+.pay-providers-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pay-providers-items li svg{
+fill: #707070;
+color: #707070;
+}
+.arr-pay-back{
+ 
+    transform: rotate(270deg);
+}
+.arr-pay-forward{
+    transform: rotate(90deg);
+}
