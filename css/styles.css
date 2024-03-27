@@ -265,7 +265,15 @@ display: flex;
 .top-rated,
 .blackjack,
 .nouveau,
-.live{
+.live,
+.livespins,
+.roulette,
+.machines,
+.jackpot,
+.drops,
+.jeux,
+.mini-games,
+.tournoi{
     background-color: var(--site-background-color);
 }
 .top-rated-container{
@@ -499,4 +507,94 @@ footer{
 .search-btn-stack>li{
     fill:var(--header-background-text-color);
 }
+.arrow-container{
+    display:flex;
+}
 
+.arrows{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    width: 86px;
+   gap:8px;
+    align-items: center;
+}
+.arrows>li{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+color:var(--header-background-text-color);
+    background-color: var(--site-background-color);
+}
+.arrows>li:hover{
+    background-color: var(--site-background-color-secondary)
+}
+.arrows>li>svg:hover{
+    color:var(--primary-color);
+    cursor: pointer;
+
+}
+.ar-back{
+
+    box-shadow: 1px 3px 3px 2px var(--shadow-color);
+    position: relative;
+  
+}
+.ar-back svg{
+    left: 10px;
+    position: absolute;
+    top: 10px;
+    transform: rotate(270deg);
+}
+.ar-forward{
+
+    box-shadow: 1px 3px 3px 2px var(--shadow-color);
+    position: relative;
+}
+
+.ar-forward svg{
+    left: 10px;
+    position: absolute;
+    top: 10px;
+    transform: rotate(90deg);
+}
+/* Bloggers */
+.bloggers-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.blogger-card{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.blogger-card:nth-child(3),
+.blogger-card:nth-child(4),
+.blogger-card:nth-child(5),
+.blogger-card:nth-child(6) {
+  display: none; 
+}
+
+.blogger-note{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 8px;
+}
+.blogger-note svg{
+    fill:var(--header-background-text-color);
+}
+#b-time{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--header-background-text-color);
+}
