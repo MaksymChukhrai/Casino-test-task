@@ -1,7 +1,12 @@
 @media screen and (min-width: 1440px) {
 
 
-
-
-    
+.pay-providers-items li:nth-child(6),
+.pay-providers-items li:nth-child(7),
+.pay-providers-items li:nth-child(8),
+.pay-providers-items li:nth-child(9),
+.pay-providers-items li:nth-child(10)
+{
+    display: block;
+}
 }

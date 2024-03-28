@@ -1,21 +1,25 @@
 @media screen and (min-width: 768px) {
+  .header-icon-say,
+  .header-icon-search,
+  .logo-header {
+    display: block;
+  }
+  .logo-header-sm {
+    display: none;
+  }
+  .search-button,
+  .say-button {
+    fill: var(--header-background-text-color);
+  }
 
-    .header-icon-say,
-    .header-icon-search,
-    .logo-header{
-        display:block;
-    }
-    .logo-header-sm{
-        display:none;
-    }
-    .search-button,
-    .say-button{
-    fill:var(--header-background-text-color);
-    }
+  .top-cards-item:nth-child(5),
+  .top-cards-item:nth-child(6) {
+    display: block; /* Показываем элементы 5 и 6 для планшетов и ПК */
+  }
 
-    .top-cards-item:nth-child(5),
-    .top-cards-item:nth-child(6) {
-      display: block; /* Показываем элементы 5 и 6 для планшетов и ПК */
-    }
-    
+  .pay-providers-items li:nth-child(3),
+  .pay-providers-items li:nth-child(4),
+  .pay-providers-items li:nth-child(5) {
+    display: block;
+  }
 }
