@@ -1,4 +1,5 @@
 @media screen and (min-width: 1440px) {
+ 
 
 
 .pay-providers-items li:nth-child(6),
@@ -9,4 +10,45 @@
 {
     display: block;
 }
+.pos-container{
+max-width: 100em;
+margin: 0 auto;
+}
+
+.block-123 {
+    gap: 25px;
+    margin-left:20px;
+    margin-right:100px;
+}
+
+.block-123 li img {
+    max-height: 60px;
+}
+
+.nav-title {
+    justify-content: flex-start;
+}
+
+
+  .block-123:not(:last-child) {
+    border-bottom: none; /* Отменяем границу у .block-123, кроме последнего элемента */
+  }
+
+  .scroll-container::-webkit-scrollbar {
+    display: none; /* Скрываем скроллбар */
+  }
+
+  .top-container {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+.top-cards {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.cards-pc{
+    display:flex;
+}
+
+
 }

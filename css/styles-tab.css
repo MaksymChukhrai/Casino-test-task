@@ -35,19 +35,29 @@
   }
   .search-button,
   .say-button {
-    fill: var(--header-background-text-color);
+    fill: #d6d6d6;
   }
-
+  .main-slider-banner {
+    min-height: 100px;
+  }
   .top-cards-item:nth-child(5),
   .top-cards-item:nth-child(6) {
     display: block; /* Показываем элементы 5 и 6 для планшетов и ПК */
   }
-
+  .pay-providers-items li:nth-child(2),
   .pay-providers-items li:nth-child(3),
   .pay-providers-items li:nth-child(4),
-  .pay-providers-items li:nth-child(5) {
+  .pay-providers-items li:nth-child(5),
+  .pay-providers-items li:nth-child(6) {
     display: block;
   }
+
+  .game-providers-items li:nth-child(4),
+.game-providers-items li:nth-child(5),
+.game-providers-items li:nth-child(6){
+  display: block;
+}
+
 /* main-slider section */
 /* image swap for different min-widths */
 .main-slider-img{
@@ -92,10 +102,25 @@
   object-fit: cover; /* Масштабировать и обрезать изображение, чтобы оно полностью заполнило контейнер */
  
 }
+.block-123:not(:last-child) {
+  border-bottom: none; /* Отменяем границу у .block-123, кроме последнего элемента */
+}
+.block-123{
+  border-bottom: none;
+}
+.main-slider-banner {
+  border-bottom: none; /* Отменяем границу у .main-slider-banner */
+}
+
+.block-123:not(:last-child) {
+  border-bottom: none; /* Отменяем границу у .block-123, кроме последнего элемента */
+}
 
 .top-rated-container{
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: .5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
 }
 
 .gagnant{
@@ -170,6 +195,63 @@
 .w-card-text-container {
   width: 290px;
 }
+
+.blogger-card:nth-child(3),
+.blogger-card:nth-child(4),
+.blogger-card:nth-child(5),
+.blogger-card:nth-child(6) {
+  display: block; 
+}
+.bloggers-container{
+  flex-direction: row;
+  gap:0;
+}
+
+.blogger-card{
+  width:31.5%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-right: 0;
+  margin-left: 10px;
+}
+/* footer-menu */
+.footer-menu{
+  margin-top: 30px;
+}
+.logo-container {
+  padding-top: 1.4rem;
+  padding-bottom: 1.8rem;
+}
+.utils{
+      padding-left: 0;
+    padding-right: 0;
+}
+.pay-providers-items .pay-mode,
+.game-providers-items .game-mode{
+    width: 17.8vw;
+}
+.pay-providers-items .pay-mode img,
+.game-providers-items .game-mode img,
+  .pay-providers-items .pay-mode svg{
+    margin: 0px 5px;
+    object-fit: contain;
+    display: block;
+
+}
+.providers{
+  margin-top: 30px;
+    padding: 9px 25px 25px 25px;
+}
+
+#amusez{
+  display: block;
+}
+footer{
+  display:none;
+}
+
 
 
 
