@@ -1,4 +1,30 @@
 @media screen and (min-width: 768px) {
+  .header-container{
+   padding-right:20px;
+   padding-left:20px;
+  }
+  .header-menu-left {
+    gap:30px;
+  }
+  .burger-icon {
+    justify-content: center;
+  }
+  .header-icon-say{
+    margin: 0px 10px;
+  }
+  .h-btn {
+    background-color: #d6d6d6;
+    color: #121211;
+    padding: 10px 25px;
+    border-radius: var(--button-radius);
+  }
+  .hs-btn {
+    padding: 10px 25px;
+    line-height: 1.5;
+  }
+
+
+
   .header-icon-say,
   .header-icon-search,
   .logo-header {
@@ -22,4 +48,129 @@
   .pay-providers-items li:nth-child(5) {
     display: block;
   }
+/* main-slider section */
+/* image swap for different min-widths */
+.main-slider-img{
+  background-image:url('../img/1830_cs_welcomeb__hp.jpg');
+}
+
+.main-slider-banner>p {
+  font-size: 28px;
+}
+.container-123{
+  flex-direction: row;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.block-123{
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: .9rem;
+    padding-bottom: .9rem;
+}
+
+.block-123 li img {
+  max-height: 90px;
+}
+.block-123:not(:last-child) {
+  border-bottom: none;
+}
+
+/* .top-cards{
+  justify-content: space-evenly;
+} */
+
+.top-cards>.top-cards-item {
+  width: 31.5%;
+}
+.card-thumb {
+  justify-content: space-evenly;
+}
+.card-thumb img {
+  width: 260px;
+  height: 190px;
+  object-fit: cover; /* Масштабировать и обрезать изображение, чтобы оно полностью заполнило контейнер */
+ 
+}
+
+.top-rated-container{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.gagnant{
+  padding: 25px 8px;
+
+}
+.gagnants-recents {
+  padding-bottom: 2rem;
+}
+.winner-cards{
+    margin-top: 0;
+  margin-bottom: 0;
+  width: 400px;
+  padding:0px 5px 0px 0px;
+}
+.winner-card-results {
+  margin: 0;
+}
+
+.award-winner-flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 5px;
+  padding-left: 5px;
+  gap: 15px;
+}
+.award{
+  width: 325px;
+  height: 340px;
+  margin: 0;
+  align-items: center;
+}
+.award > h4 {
+  font-size: 1.5rem;
+  }
+.left-branch img,
+.right-branch img{
+  height: 110px;
+  width:60px;
+}
+.center-branch img {
+  width: 100px;
+  height: 100px;
+}
+
+.winner-text {
+  width: 250px;
+}
+
+.win-text {
+  font-size: 1rem;
+  width: 250px;
+}
+.winner-game-title {
+  font-size: 1rem;
+}
+
+.win-amount-win-text{
+  font-size: 1.5rem;
+}
+.win-card{
+  font-size: .9rem;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+
+.win-money{
+  font-size: 1.1rem;
+}
+.w-card-text-container {
+  width: 290px;
+}
+
+
+
 }
