@@ -50,11 +50,15 @@ p {
   text-decoration: none;
   list-style: none;
 }
+button{
+    cursor: pointer;
+}
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+  cursor: pointer;
 }
 /* header */
 header{
@@ -107,6 +111,12 @@ main{
 .header-icon-search,
 .logo-header{
     display:none;
+    cursor: pointer;
+}
+
+.logo-header-sm:hover,
+.logo-header:hover{
+    cursor: pointer;
 }
 
 .h-btn{
@@ -280,6 +290,9 @@ display: flex;
     justify-content: space-between;
     /* padding: 0.5rem; */
     line-height: 1.5;
+    /* flex-direction: column; */
+}
+.footer-top{
     flex-direction: column;
 }
 .gagnant{

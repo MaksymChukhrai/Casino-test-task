@@ -10,6 +10,28 @@
 {
     display: block;
 }
+
+.pay-mode,
+.game-mode{
+  cursor: pointer;
+  display: flex !important;
+  justify-content: center!important;
+  align-items: center!important;
+}
+.game-mode:hover,
+.pay-mode:hover{
+  transform: translateY(-5%);
+  box-shadow: 1px 3px 3px 2px rgba(255,255,255,.5);
+}
+
+.game-providers-items li:nth-child(7),
+.game-providers-items li:nth-child(8),
+.game-providers-items li:nth-child(9),
+.game-providers-items li:nth-child(10),
+.game-providers-items li:nth-child(11){
+  display: block;
+}
+
 .pos-container{
 max-width: 100em;
 margin: 0 auto;
@@ -49,6 +71,22 @@ margin: 0 auto;
 .cards-pc{
     display:flex;
 }
+.winner-cards{
+  width:527px;
+}
+.blogger-card {
+  width: 19.2%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-right: 0;
+  margin-left: 10px;
+}
+.blogger-card:last-child{
+  display: none;
+}
+
 
 
 }
