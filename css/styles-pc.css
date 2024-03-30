@@ -89,7 +89,9 @@ margin: 0 auto;
 .blogger-card:last-child{
   display: none;
 }
-
+.tournoi{
+  padding-bottom: .5rem;
+}
 
 
 }

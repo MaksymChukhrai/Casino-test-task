@@ -71,6 +71,7 @@
   background-image:url('../img/1830_cs_welcomeb__hp.webp');
 }
 
+
 .main-slider-banner>p {
   font-size: 28px;
 }
@@ -115,9 +116,7 @@
 .block-123{
   border-bottom: none;
 }
-.main-slider-banner {
-  border-bottom: none; /* Отменяем границу у .main-slider-banner */
-}
+
 
 .block-123:not(:last-child) {
   border-bottom: none; /* Отменяем границу у .block-123, кроме последнего элемента */
