@@ -1,5 +1,23 @@
 @media screen and (min-width: 1440px) {
- 
+ header{
+  height: 70px;
+  align-content: center;
+ }
+ .header-menu-left {
+  align-items: center;
+ }
+
+ .h-button,
+ .hs-button {
+  line-height: 1.15;
+  padding: 8px 25px;
+ }
+
+ .burger-icon {
+  width: 28px;
+  height: 34px;
+  margin: 5px;
+ }
 
 
 .pay-providers-items li:nth-child(6),
