@@ -332,7 +332,7 @@ display: flex;
     margin-left: calc(-1 * var(--cardset-gap));
     margin-top: calc(-1 * var(--cardset-gap));
 padding: 0;
-margin: 0;
+/* margin: 0; */
 list-style: none;
 display: flex;
 flex-wrap: wrap;
@@ -356,6 +356,7 @@ justify-content: center;
 border-radius: var(--site-radius);
 overflow: hidden;
 height: 196px;
+width: 100%;
 }
 /* .top-cards-item{
     outline:1px solid mediumaquamarine;
@@ -719,6 +720,7 @@ padding-top: 0.5rem;
 .game-providers-items li svg{
 fill: #707070;
 color: #707070;
+
 }
 
 .pay-providers-items .pay-mode,
@@ -758,10 +760,13 @@ color: #707070;
 .arr-pay-back{
  margin:0;
     transform: rotate(270deg);
+    margin-top: 8px;
 }
 .arr-pay-forward{
     transform: rotate(90deg);
     margin:0;
+    margin-top: 8px;
+   
 }
 .pay-providers-items li:nth-child(4),
 .pay-providers-items li:nth-child(5),
