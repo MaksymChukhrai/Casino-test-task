@@ -1,4 +1,5 @@
 @media screen and (min-width: 768px) {
+
   .header-container{
    padding-right:20px;
    padding-left:20px;
@@ -96,12 +97,14 @@
   border-bottom: none;
 }
 
-/* .top-cards{
-  justify-content: space-evenly;
-} */
+.top-cards{
+  margin-left: calc(-1 * var(--cardset-gap));
+  margin-top: calc(-1 * var(--cardset-gap));
+}
 
 .top-cards>.top-cards-item {
   width: 31.5%;
+  flex-basis: calc(33% - var(--cardset-gap)); /* Обратите внимание на пробел перед var(--cardset-gap) */
 }
 .card-thumb {
   justify-content: space-evenly;

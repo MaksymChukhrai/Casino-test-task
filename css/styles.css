@@ -329,7 +329,8 @@ display: flex;
     background-color: var(--site-background-color);
 }
 .top-cards{
-
+    margin-left: calc(-1 * var(--cardset-gap));
+    margin-top: calc(-1 * var(--cardset-gap));
 padding: 0;
 margin: 0;
 list-style: none;
@@ -337,17 +338,16 @@ display: flex;
 flex-wrap: wrap;
 flex-direction: row;
 justify-content: center;
-margin-left: calc(-1 * var(--cardset-gap));
-margin-top: calc(-1 * var(--cardset-gap));
+
 
 }
 
-.top-cards>.top-cards-item{
-    flex-basis: calc(50%-var(--cardset-gap));
+.top-cards>.top-cards-item {
+    /* flex-basis: calc(50% - var(--cardset-gap)); */ /* Измените или комментируйте это свойство */
     margin-left: var(--cardset-gap);
     margin-top: var(--cardset-gap);
+    /* width: calc(50% - var(--cardset-gap)); Измените ширину элемента, используя calc для вычета отступа */
     width: 46%;
-    /* height: 200px; */
 }
 /* .card-thumb{
     outline:1px solid red;
