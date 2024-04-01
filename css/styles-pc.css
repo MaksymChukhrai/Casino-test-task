@@ -92,6 +92,9 @@ margin: 0 auto;
 .cards-pc{
     display:flex;
 }
+.card-thumb img:hover{
+  border: 2px solid var(--primary-color);
+}
 .winner-cards{
   width:527px;
 }
